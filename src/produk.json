@@ -1,0 +1,572 @@
+[
+    {
+        "KategoriId" : 1,
+        "TitleKategori" : "Sewa Penginapan",
+        "Items": [
+            {
+                "ItemsId" : 1,
+                "ItemsTitle": "Apartemen",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Apartemen B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Apartemen C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Apartemen D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Apartemen E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Apartemen F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Apartemen G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Apartemen H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 2,
+                "ItemsTitle": "Hotel",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Hotel B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Hotel C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Hotel D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Hotel E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Hotel F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Hotel G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Hotel H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 3,
+                "ItemsTitle": "Villa",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Villa B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Villa C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Villa D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Villa E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Villa F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Villa G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Villa H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 4,
+                "ItemsTitle": "Bungalow",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Bungalow B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Bungalow C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Bungalow D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Bungalow E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Bungalow F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Bungalow G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Bungalow H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "KategoriID" : 2,
+        "TitleKategori" : "Sewa Sarana Olahraga",
+        "Items": [
+            {
+                "ItemsId" : 1,
+                "ItemsTitle": "Lapang Futsal",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Lapang Futsal A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Lapang Futsal B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Lapang Futsal C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Lapang Futsal D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Lapang Futsal E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Lapang Futsal F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Lapang Futsal G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Lapang Futsal H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 2,
+                "ItemsTitle": "Lapang Sepak Bola",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Lapang Sepak Bola A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Lapang Sepak Bola B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Lapang Sepak Bola C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Lapang Sepak Bola D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Lapang Sepak Bola E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Lapang Sepak Bola F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Lapang Sepak Bola G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Lapang Sepak Bola H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 3,
+                "ItemsTitle": "Lapang Tenis",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Lapang Tenis A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Lapang Tenis B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Lapang Tenis C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Lapang Tenis D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Lapang Tenis E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Lapang Tenis F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Lapang Tenis G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Lapang Tenis H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 4,
+                "ItemsTitle": "Lapang Basket",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Lapang Basket A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Lapang Basket B",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Lapang Basket C",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Lapang Basket D",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Lapang Basket E",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Lapang Basket F",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Lapang Basket G",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Lapang Basket H",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "KategoriID" : 3,
+        "TitleKategori" : "Paling Banyak Disewa",
+        "Items": [
+            {
+                "ItemsId" : 1,
+                "ItemsTitle": "Apartemen",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Apartemen A",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 2,
+                "ItemsTitle": "Hotel",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Hotel A",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 3,
+                "ItemsTitle": "Villa",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Villa A",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            },
+            {
+                "ItemsID" : 4,
+                "ItemsTitle": "Bungalow",
+                "Produk": [
+                    {
+                        "ProdukId": 1,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 2,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 3,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 4,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 5,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 6,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 7,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    },
+                    {
+                        "ProdukId": 8,
+                        "ProdukTitle": "Bungalow A",
+                        "ProdukHarga": "250.000"
+                    }
+                ]
+            }
+        ]
+    }
+]
