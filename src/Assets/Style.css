@@ -5834,6 +5834,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 3%;
     width: 25%;
     padding: 15px;
     -webkit-box-orient: vertical;

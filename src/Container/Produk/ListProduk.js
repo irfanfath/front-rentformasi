@@ -1,17 +1,31 @@
 import React, { Component } from "react";
 import axios from 'axios';
-import ProdukPenginapan from "../../Component/ListData/ProdukPenginapan";
 import Cari from "../../Component/Forms/Cari";
 import Sorting from "../../Component/Dropdown/Sorting";
+import Produk from "../../Component/ListData/Produk";
 // import PaginationPage from "../Component/Pagination/PaginationPage";
 
-class Apartemen extends Component{
+class ListProduk extends Component{
     state = {
         post: []
     }
 
+    // componentDidMount(){
+    //     let id = this.props.match.params.idBarang;
+    //     axios.get(`http://irfanfath.site/Rentformasi_API/home.json/${id}`).then(res => {
+    //         let post = res.data;
+    //         this.setState({
+    //             post : {
+    //                 title: post.title,
+    //                 harga: post.harga,
+    //             }
+    //         })
+    //     })     
+    // }
+
     getPostAPI = () => {
-        axios.get('http://irfanfath.site/Rentformasi_API/produk.json')
+        let id = this.props.match.params.idBarang;
+        axios.get(`http://irfanfath.site/Rentformasi_API/produk.json/${id}`)
         .then((result)=>{
             this.setState({
                 post: result.data
@@ -52,7 +66,7 @@ class Apartemen extends Component{
                             <div className="products w-dyn-items">
                             {
                                 this.state.post.map(post => {
-                                return <ProdukPenginapan key={post.ProdukId} 
+                                return <Produk key={post.ProdukId} 
                                                data={post}
                                         />
                                         })
@@ -67,4 +81,4 @@ class Apartemen extends Component{
     }
 }
 
-export default Apartemen;
+export default ListProduk;

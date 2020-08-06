@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import MainProduk from "../../Component/ListData/MainProduk";
-import ListPenginapan from "./ListPenginapan";
-import ListSport from "./ListSport";
-import ListBest from "./ListBest";
+import ListHome from "./ListHome";
 
 class Home extends Component{
     render(){
@@ -16,9 +14,7 @@ class Home extends Component{
                         </div>
                     </div>
                 </div>
-                <ListPenginapan/>
-                <ListSport/>
-                <ListBest/>
+                <ListHome/>
                 <div className="section haze">
                     <div className="wrapper">
                         <div className="intro">
