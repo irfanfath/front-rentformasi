@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from 'axios';
 import Cari from "../../Component/Forms/Cari";
 import Sorting from "../../Component/Dropdown/Sorting";
-// import PaginationPage from "../Component/Pagination/PaginationPage";
+import PaginationPage from "../../Component/Pagination/PaginationPage";
 
 class ListProduk extends Component{
     state = {
@@ -73,12 +73,13 @@ class ListProduk extends Component{
                                             )
                                         })
                                     }
+                                    <PaginationPage/>
                                 </div>
                             )
                         })}
                     </div>
                 </div>   
-                {/* <PaginationPage/>                                   */}
+                {/* <PaginationPage/> */}
         </div>
         )
     }
