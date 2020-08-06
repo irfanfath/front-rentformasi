@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import axios from 'axios';
 import Cari from "../../Component/Forms/Cari";
 import Sorting from "../../Component/Dropdown/Sorting";
-import Produk from "../../Component/ListData/Produk";
 // import PaginationPage from "../Component/Pagination/PaginationPage";
 
 class ListProduk extends Component{
@@ -11,6 +10,7 @@ class ListProduk extends Component{
     }
 
     // componentDidMount(){
+    //     // const proxyurl = "https://cors-anywhere.herokuapp.com/";
     //     let id = this.props.match.params.idBarang;
     //     axios.get(`http://irfanfath.site/Rentformasi_API/home.json/${id}`).then(res => {
     //         let post = res.data;
@@ -24,8 +24,7 @@ class ListProduk extends Component{
     // }
 
     getPostAPI = () => {
-        let id = this.props.match.params.idBarang;
-        axios.get(`http://irfanfath.site/Rentformasi_API/produk.json/${id}`)
+        axios.get('http://irfanfath.site/Rentformasi_API/produk.json')
         .then((result)=>{
             this.setState({
                 post: result.data
@@ -52,27 +51,33 @@ class ListProduk extends Component{
             <Cari/>
                 <div className="section no-padding-top">
                     <div className="wrapper">
-                        <div className="shop-header">
-                            <div>
-                            <h3>Semua Penginapan</h3>
-                            <div className="count-produk">Menampilkan 1-23 dari 253 produk</div>
-                            </div>
-                            <Sorting/>
-                            <div className="shop-header-line">
-                                <div className="shop-header-color"></div>
-                            </div>
-                        </div>
-                        <div className="full-width w-dyn-list">
-                            <div className="products w-dyn-items">
-                            {
-                                this.state.post.map(post => {
-                                return <Produk key={post.ProdukId} 
-                                               data={post}
-                                        />
+                            {this.state.post.map((post, key) => {
+                            return (
+                                <div className="shop-header" key={key}>
+                                    <div>
+                                    <h3 className="no-margin">{post.SubKatTitle}</h3>
+                                    <div className="count-produk">Menampilkan 1-23 dari 253 produk</div>
+                                    </div>
+                                    <Sorting/>
+                                        <div className="shop-header-line">
+                                            <div className="shop-header-color"></div>
+                                        </div>
+                                    {
+                                        post.Items.Product.map((data, key) => {
+                                            return (
+                                                    <div className="product-card-wrapper w-dyn-item" key={key}>
+                                                        <div className="product-card w-inline-block">
+                                                            <div className="product-card-image-wrapper"><img src="a" alt="" /></div>
+                                                            <div className="product-card-heading">{data.ProdukTitle}</div>
+                                                            <div className="product-card-price">Rp. {data.ProdukHarga}</div>
+                                                        </div>
+                                                    </div>
+                                            )
                                         })
-                            }
-                            </div>
-                        </div>
+                                    }
+                                </div>
+                            )
+                        })}
                     </div>
                 </div>   
                 {/* <PaginationPage/>                                   */}

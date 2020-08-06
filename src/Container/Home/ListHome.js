@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import ListKategori from "./ListKategori";
-// import ListKategori from "./ListKategori";
 
 class ListHome extends Component{
     state = {
@@ -42,7 +40,6 @@ class ListHome extends Component{
                                             {
                                                 post.SubKat.Subkategori.map((data, key) => {
                                                     return (
-                                                        // <div className="full-width w-dyn-list">
                                                                 <div className="product-card-wrapper w-dyn-item" key={key}>
                                                                     <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId)}>
                                                                         <div className="product-card-image-wrapper"><img src={data.gambar} alt="" /></div>
@@ -50,7 +47,6 @@ class ListHome extends Component{
                                                                         <div className="product-card-price">Selengkapnya</div>
                                                                     </div>
                                                                 </div>
-                                                        // </div>
                                                     )
                                                 })
                                             }      

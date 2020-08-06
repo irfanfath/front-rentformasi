@@ -6,7 +6,6 @@ import Header from "./Component/Navigation/Header";
 import Apartemen from "./Container/Produk/Apartemen";
 import Hotel from "./Container/Produk/Hotel";
 import Footer from "./Component/Navigation/Footer";
-import Penginapan from "./Container/Produk/Penginapan";
 import ListProduk from "./Container/Produk/ListProduk";
 
 class Main extends Component {
@@ -16,7 +15,6 @@ class Main extends Component {
                 <Header/>
                 <DynamicScrollToTop/>
                     <Route exact path="/" component={Home} />
-                    <Route path="/penginapan/:idBarang" component={Penginapan}/>
                     <Route path="/listproduk/:idBarang" component={ListProduk}/>
                     <Route path="/apartemen" component={Apartemen}/>
                     <Route path="/hotel" component={Hotel}/>
