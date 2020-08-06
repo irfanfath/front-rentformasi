@@ -41,11 +41,9 @@ class ListProduk extends Component{
     //     this.props.history.push(`/product_detail/${id}`);
     // }
 
-    // moveCart = () => {
-    //     window.location.href = "#/product_detail/1"
-    // }
-
     render(){
+        var prod = this.state.post;
+        var countprod = prod.length;
         return(
         <div className="section-produk">
             <Cari/>
@@ -56,7 +54,7 @@ class ListProduk extends Component{
                                 <div className="shop-header" key={key}>
                                     <div>
                                     <h3 className="no-margin">{post.SubKatTitle}</h3>
-                                    <div className="count-produk">Menampilkan 1-23 dari 253 produk</div>
+                                    <div className="count-produk">Menampilkan {countprod} dari {countprod} produk</div>
                                     </div>
                                     <Sorting/>
                                         <div className="shop-header-line">
