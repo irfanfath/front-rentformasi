@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import ListKategori from "./ListKategori";
 // import ListKategori from "./ListKategori";
 
 class ListHome extends Component{
@@ -21,9 +22,9 @@ class ListHome extends Component{
         this.getPostAPI();
     }
 
-    handleProduct = (IdKategori) => {
+    handleProduct = (SubKatId) => {
         // this.props.history.push(`/penginapan/${IdKategori}`);
-        window.location.href = (`#/listproduk/${IdKategori}`)
+        window.location.href = (`#/listproduk/${SubKatId}`)
     }
 
     render(){
@@ -43,7 +44,7 @@ class ListHome extends Component{
                                                     return (
                                                         // <div className="full-width w-dyn-list">
                                                                 <div className="product-card-wrapper w-dyn-item" key={key}>
-                                                                    <div className="product-card w-inline-block" onClick={this.handleProduct}>
+                                                                    <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId)}>
                                                                         <div className="product-card-image-wrapper"><img src={data.gambar} alt="" /></div>
                                                                         <div className="product-card-heading">{data.SubKatTitle}</div>
                                                                         <div className="product-card-price">Selengkapnya</div>
