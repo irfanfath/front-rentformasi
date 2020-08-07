@@ -3,23 +3,20 @@ import "./page.css";
 
 const PaginationPage = () => {
   return (
-    <ul className="pagination modal-4">
-  <li><a href="#" className="prev">
-    <i className="fa fa-chevron-left"></i>
-      Previous
-    </a>
-  </li>
-  <li><a href="#">1</a></li>
-  <li> <a href="#">2</a></li>
-  <li> <a href="#">3</a></li>
-  <li> <a href="#">4</a></li>
-  <li> <a href="#" className="active">5</a></li>
-  <li> <a href="#">6</a></li>
-  <li> <a href="#">7</a></li>
-  <li><a href="#" className="next"> Next 
-    <i className="fa fa-chevron-right"></i>
-  </a></li>
-</ul>
+    <div className="pagination-box">
+      <ul className="pagination">
+        <div className="pagination-num">
+          <div className="page-arah">&laquo;</div>
+          <div className="page-num active">1</div>
+          <div className="page-num">2</div>
+          <div className="page-num">3</div>
+          <div className="page-num">4</div>
+          <div className="page-limit">...</div>
+          <div className="page-num">8</div>
+          <div className="page-arah">&raquo;</div>
+        </div>
+      </ul>
+    </div>
     )
 }
 
