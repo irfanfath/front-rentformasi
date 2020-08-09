@@ -5,7 +5,7 @@ import "../../Assets/star.css"
 class ListHome extends Component{
     state = {
         post: [],
-        star: 4
+        stok: 16
     }
 
     getPostAPI = () => {
@@ -49,10 +49,10 @@ class ListHome extends Component{
                                                     return (
                                                                 <div className="product-card-wrapper" key={key}>
                                                                     <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId)}>
-                                                                        <div className="star-ratings-css" title={this.state.star}></div>
+                                                                        <div className="product-card-stok">{this.state.stok} produk tersedia</div>
                                                                         <div className="product-card-image-wrapper"><img className="img-prod" src={data.gambar} alt="" /></div>
                                                                         <div className="product-card-heading">{data.SubKatTitle}</div>
-                                                                        <div className="product-card-price">Selengkapnya</div>
+                                                                        <div className="product-card-selengkapnya">Selengkapnya</div>
                                                                     </div>
                                                                 </div>
                                                     )

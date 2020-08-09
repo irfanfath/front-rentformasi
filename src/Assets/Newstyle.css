@@ -1,7 +1,16 @@
 .img-prod {
     width: 100%;
-    max-width: 150px;
-    max-height: 200px;
+    max-width: 180px;
+    height: 100%;
+    max-height: 150px;
+}
+
+.product-card-stok {
+    color: #111;
+    font-size: 12px;
+    text-align: right;
+    width: 100%;
+    margin-top: 5%;
 }
 
 .product-card-heading {
@@ -9,6 +18,18 @@
     color: #111;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.product-card-price {
+    height: 34px;
+    width: 80%;
+    padding: 2px 12px;
+    border-radius: 12px;
+    background-color: #a5c926;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
 }
 
 .w-commerce-header-wish {
@@ -654,11 +675,32 @@
         background-color: #ffffff;
     }
 
+    .product-card-stok {
+        color: #111;
+        font-size: 9px;
+        text-align: right;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
     .product-card-heading {
         margin-bottom: 20px;
         color: #111;
         font-weight: bolder;
         font-size: 15px;
+    }
+
+    .product-card-price {
+        height: 24px;
+        width: 100%;
+        padding: 2px 12px;
+        border-radius: 8px;
+        background-color: #a5c926;
+        color: #fff;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
     }
 
     .margin-home-box {
@@ -671,6 +713,7 @@
         max-width: 120px;
         height: 70px;
     }
+
     .input-tanggal {
         height: 35px;
         width: 115px;
