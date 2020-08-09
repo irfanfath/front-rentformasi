@@ -5918,8 +5918,8 @@ p {
 
 .product-card-heading {
     margin-bottom: 20px;
-    font-size: 20px;
     color: #111;
+    font-weight: bolder;
 }
 
 .product-card-price {
@@ -7557,6 +7557,7 @@ p {
         height: 284px;
         padding: 32px;
     }
+
     .subscribe {
         width: 66.66%;
         padding: 64px;
