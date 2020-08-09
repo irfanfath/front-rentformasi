@@ -6,7 +6,8 @@ import PaginationPage from "../../Component/Pagination/PaginationPage";
 
 class ListProduk extends Component{
     state = {
-        post: []
+        post: [],
+        star: 4
     }
 
     // componentDidMount(){
