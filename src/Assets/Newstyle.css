@@ -1,6 +1,7 @@
 .img-prod {
-    width: 160px;
-    max-height: 120px;
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
 }
 .w-commerce-header-wish {
     border-bottom-left-radius: 0px;
@@ -623,6 +624,11 @@
   
 
 @media (max-width: 991px) {
+    .img-prod {
+        width: 100%;
+        max-width: 120px;
+        height: 70px;
+    }
     .input-tanggal {
         height: 35px;
         width: 115px;

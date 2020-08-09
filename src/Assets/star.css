@@ -9,7 +9,7 @@
 } 
 .star-ratings-css::before { 
   content: '★★★★★';
-  opacity: .3;
+  opacity: .8;
 }
 
 [title="0"]::after {
@@ -48,27 +48,25 @@
 .star-ratings-css {
     unicode-bidi: bidi-override;
     color: #c5c5c5;
-    font-size: 12px;
-    height: 25px;
-    margin-left: 70%;
+    font-size: 15px;
+    height: 35px;
     position: relative;
     text-shadow: 0 1px 0 #a2a2a2;
   } 
   .star-ratings-css::before { 
     content: '★★★★★';
-    opacity: .3;
+    opacity: .8;
   }
 
   .star-ratings-css::after {
     color: gold;
-    content: '★★★';
+    content: '★★★★';
     text-shadow: 0 1px 0 #ab5414;
     position: absolute;
     z-index: 1;
     display: block;
     left: 0;
     top:0;
-    width: attr(rating);
     overflow: hidden;
   }
 }
