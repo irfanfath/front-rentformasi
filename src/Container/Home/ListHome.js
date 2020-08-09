@@ -25,6 +25,7 @@ class ListHome extends Component{
     handleProduct = (SubKatId) => {
         // this.props.history.push(`/penginapan/${IdKategori}`);
         window.location.href = (`#/listproduk/${SubKatId}`)
+        // window.open(`#/listproduk/${SubKatId}`, "_blank")
     }
 
     render(){
@@ -43,7 +44,7 @@ class ListHome extends Component{
                                                 post.SubKat.Subkategori.map((data, key) => {
                                                     return (
                                                                 <div className="product-card-wrapper w-dyn-item" key={key}>
-                                                                    <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId), "_blank"}>
+                                                                    <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId)}>
                                                                         <div className="star-ratings-css" title={this.state.star}></div>
                                                                         <div className="product-card-image-wrapper"><img className="img-prod" src={data.gambar} alt="" /></div>
                                                                         <div className="product-card-heading">{data.SubKatTitle}</div>
