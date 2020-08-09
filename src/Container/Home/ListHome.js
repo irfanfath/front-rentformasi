@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
+import "../../Assets/star.css"
 
 class ListHome extends Component{
     state = {
-        post: []
+        post: [],
+        star: 4
     }
 
     getPostAPI = () => {
@@ -42,7 +44,8 @@ class ListHome extends Component{
                                                     return (
                                                                 <div className="product-card-wrapper w-dyn-item" key={key}>
                                                                     <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId)}>
-                                                                        <div className="product-card-image-wrapper"><img src={data.gambar} alt="" /></div>
+                                                                        <div className="star-ratings-css" title={this.state.star}></div>
+                                                                        <div className="product-card-image-wrapper"><img className="img-prod" src={data.gambar} alt="" /></div>
                                                                         <div className="product-card-heading">{data.SubKatTitle}</div>
                                                                         <div className="product-card-price">Selengkapnya</div>
                                                                     </div>
