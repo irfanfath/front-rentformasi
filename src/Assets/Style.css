@@ -5895,6 +5895,7 @@ p {
     -webkit-transform: scale(1.05) translate(0px, -2px);
     -ms-transform: scale(1.05) translate(0px, -2px);
     transform: scale(1.05) translate(0px, -2px);
+    cursor: pointer;
 }
 
 .product-card-image-wrapper {

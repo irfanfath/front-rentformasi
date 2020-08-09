@@ -40,7 +40,6 @@
   color: #000000;
   margin-left: -1px;
   line-height: 1.5;
-  margin-left: 10px;
   padding: 0;
   width: 40px;
   height: 40px;
@@ -70,14 +69,101 @@
 .page-num:hover {
   background-color: #a5c926;
   color: #fff;
+  cursor: pointer;
 }
 .page-arah:hover {
   background-color: #a5c926;
   color: #fff;
+  cursor: pointer;
 }
 .page-num.active, .page-num:active {
   background-color: #a5c926;
   cursor: default;
   color: #fff;
   outline: none;
+}
+
+@media (max-width: 991px) {
+  .pagination-box {
+    width: 100%;
+    background-color: #fff;
+  }
+  .pagination {
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .pagination-num {
+    display: inline;
+    text-align: center;
+  }
+  .page-num {
+    float: left;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #000000;
+    border: 2px solid #a5c926;
+    line-height: 1.5;
+    margin-left: 5px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 22px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+  }
+  .page-limit {
+    float: left;
+    display: block;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #000000;
+    margin-left: -1px;
+    line-height: 1.5;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+  }
+  .page-arah {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #000000;
+    line-height: 1.5;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+  }
+  .page-num:hover {
+    background-color: #a5c926;
+    color: #fff;
+    cursor: pointer;
+  }
+  .page-arah:hover {
+    background-color: #a5c926;
+    color: #fff;
+    cursor: pointer;
+  }
+  .page-num.active, .page-num:active {
+    background-color: #a5c926;
+    cursor: default;
+    color: #fff;
+    outline: none;
+  }
+  
 }
