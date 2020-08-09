@@ -5953,6 +5953,7 @@ p {
 
 .link:hover {
     border-bottom-color: #a5c926;
+    cursor: pointer;
 }
 
 .link.arrow-link {
