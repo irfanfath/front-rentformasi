@@ -9,7 +9,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
@@ -5836,7 +5836,7 @@ p {
     display: flex;
     margin-top: 3%;
     width: 25%;
-    padding: 15px;
+    padding: 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -5880,7 +5880,6 @@ p {
     flex: 1;
     border-radius: 16px;
     background-color: #ffffff;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
     -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
     transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
     transition: transform 300ms ease, box-shadow 300ms ease;
@@ -5916,11 +5915,6 @@ p {
     align-items: center;
 }
 
-.product-card-heading {
-    margin-bottom: 20px;
-    color: #111;
-    font-weight: bolder;
-}
 
 .product-card-price {
     height: 24px;

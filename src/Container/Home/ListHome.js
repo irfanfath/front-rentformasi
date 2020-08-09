@@ -22,6 +22,10 @@ class ListHome extends Component{
         this.getPostAPI();
     }
 
+    handleProductAll = (IdKategori) => {
+        window.location.href = (`#/listproduk/${IdKategori}`)
+    }
+
     handleProduct = (SubKatId) => {
         // this.props.history.push(`/penginapan/${IdKategori}`);
         window.location.href = (`#/listproduk/${SubKatId}`)
@@ -36,14 +40,14 @@ class ListHome extends Component{
                                 return (
                                     <div className="shop-header" key={key}>
                                         <h3 className="no-margin">{post.TitleKategori}</h3>
-                                        <div className="link arrow-link">Lihat Semua</div>
+                                        <div className="link arrow-link" onClick={() => this.handleProductAll(post.IdKategori)}>Lihat Semua</div>
                                         <div className="shop-header-line">
                                             <div className="shop-header-color"></div>
                                         </div>
                                             {
                                                 post.SubKat.Subkategori.map((data, key) => {
                                                     return (
-                                                                <div className="product-card-wrapper w-dyn-item" key={key}>
+                                                                <div className="product-card-wrapper" key={key}>
                                                                     <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId)}>
                                                                         <div className="star-ratings-css" title={this.state.star}></div>
                                                                         <div className="product-card-image-wrapper"><img className="img-prod" src={data.gambar} alt="" /></div>

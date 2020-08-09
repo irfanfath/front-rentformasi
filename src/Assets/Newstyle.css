@@ -1,8 +1,16 @@
 .img-prod {
     width: 100%;
     max-width: 150px;
-    max-height: 150px;
+    max-height: 200px;
 }
+
+.product-card-heading {
+    margin-bottom: 20px;
+    color: #111;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 .w-commerce-header-wish {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -644,6 +652,13 @@
         -ms-flex-align: center;
         align-items: center;
         background-color: #ffffff;
+    }
+
+    .product-card-heading {
+        margin-bottom: 20px;
+        color: #111;
+        font-weight: bolder;
+        font-size: 15px;
     }
 
     .margin-home-box {
