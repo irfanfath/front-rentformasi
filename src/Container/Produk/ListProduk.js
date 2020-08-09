@@ -65,7 +65,7 @@ class ListProduk extends Component{
                                         post.Items.Product.map((data, key) => {
                                             return (
                                                     <div className="product-card-wrapper w-dyn-item" key={key}>
-                                                        <div className="product-card w-inline-block">
+                                                        <div className="product-card">
                                                             <div className="star-ratings-css" title={this.state.star}></div>
                                                             <div className="product-card-image-wrapper"><img className="img-prod" src="https://static-id.lamudi.com/static/media/cXVhbGl0eS83MA%3D%3D/2x2x2x700x340/0fe7d581d69389.jpg" alt="" /></div>
                                                             <div className="product-card-heading">{data.ProdukTitle}</div>

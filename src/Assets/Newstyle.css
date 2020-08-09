@@ -18,6 +18,12 @@
     color: #111;
     font-weight: bolder;
     font-size: 20px;
+    width: 220px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 .product-card-price {
@@ -689,6 +695,12 @@
         color: #111;
         font-weight: bolder;
         font-size: 15px;
+        width: 130px; 
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 5px;
+        margin: 5px;
     }
 
     .product-card-price {
