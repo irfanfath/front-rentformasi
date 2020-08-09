@@ -81,7 +81,6 @@ class ListProduk extends Component{
                         })}
                     </div>
                 </div>   
-                {/* <PaginationPage/> */}
         </div>
         )
     }
