@@ -47,7 +47,7 @@ class ListHome extends Component{
                                             {
                                                 post.SubKat.Subkategori.map((data, key) => {
                                                     return (
-                                                                <div className="product-card-wrapper" key={key}>
+                                                                <div className="kategori-card-wrapper" key={key}>
                                                                     <div className="product-card w-inline-block" onClick={() => this.handleProduct(data.SubKatId)}>
                                                                         <div className="product-card-stok">{this.state.stok} produk tersedia</div>
                                                                         <div className="product-card-image-wrapper"><img className="img-prod" src={data.gambar} alt="" /></div>

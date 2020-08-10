@@ -68,6 +68,7 @@ class ListProduk extends Component{
                                                         <div className="product-card">
                                                             <div className="star-ratings-css" title={this.state.star}></div>
                                                             <div className="product-card-image-wrapper"><img className="img-prod" src="https://static-id.lamudi.com/static/media/cXVhbGl0eS83MA%3D%3D/2x2x2x700x340/0fe7d581d69389.jpg" alt="" /></div>
+                                                            <div className="title-loc-produk">Buah Batu, Bandung</div>
                                                             <div className="product-card-heading">{data.ProdukTitle}</div>
                                                             <div className="product-card-price">Rp. {data.ProdukHarga}</div>
                                                         </div>
