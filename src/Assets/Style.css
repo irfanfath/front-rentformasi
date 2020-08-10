@@ -5836,6 +5836,7 @@ p {
     display: flex;
     margin-top: 3%;
     width: 25%;
+    height: 400px;
     padding: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -8147,6 +8148,7 @@ p {
     }
     .product-card-wrapper {
         width: 50%;
+        height: 250px;
     }
     .product-card-image-wrapper {
         height: 50%;
