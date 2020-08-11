@@ -45,12 +45,17 @@
 }
 
 .product-card-heading-vertikal {
+    margin-bottom: 20px;
     font-family: serif;
     color: #111;
+    font-weight: bolder;
     font-size: 22px;
-    width: 220px; 
-    text-align: initial;
+    width: 280px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
     padding: 5px;
+    margin-top: 5px;
 }
 
 .title-loc-produk {
