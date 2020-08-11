@@ -5,6 +5,7 @@ import Home from "./Container/Home/Home";
 import Header from "./Component/Navigation/Header";
 import Footer from "./Component/Navigation/Footer";
 import ListProduk from "./Container/Produk/ListProduk";
+import DaftarProduk from "./Container/Produk/DaftarProduk";
 
 class Main extends Component {
     render(){
@@ -14,6 +15,7 @@ class Main extends Component {
                 <DynamicScrollToTop/>
                     <Route exact path="/" component={Home} />
                     <Route path="/listproduk/:idBarang" component={ListProduk}/>
+                    <Route path="/daftarprod" component={DaftarProduk}/>
                 <Footer/>
             </HashRouter>
         )

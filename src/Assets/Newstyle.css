@@ -44,6 +44,15 @@
     margin-top: 5px;
 }
 
+.product-card-heading-vertikal {
+    font-family: serif;
+    color: #111;
+    font-size: 22px;
+    width: 220px; 
+    text-align: initial;
+    padding: 5px;
+}
+
 .title-loc-produk {
     color: #a5c926;
     text-align: left;
@@ -51,11 +60,19 @@
     font-size: 12px;
 }
 
+.title-fasilitas-produk {
+    color: #a2a2a2;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
 .product-card-price {
     height: 34px;
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
     padding: 2px 12px;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: #a5c926;
     color: #fff;
     font-size: 24px;

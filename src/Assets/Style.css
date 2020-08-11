@@ -5815,6 +5815,7 @@ p {
     width: 100%;
     height: 2px;
     margin-top: 22px;
+    margin-bottom: 30px;
     background-color: #e5e5e5;
 }
 
@@ -5843,6 +5844,13 @@ p {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+
+.product-card-vertikal {
+    display: flex;
+    width: 50%;
+    height: 250px;
+    padding: 15px;
 }
 
 .kategori-card-wrapper {
@@ -5891,7 +5899,54 @@ p {
     box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.20);
 }
 
+.product-vertikal {
+    display: -webkit-box;
+    /* padding: 5px 24px 22px; */
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    border-radius: 16px;
+    background-color: #ffffff;
+    -webkit-transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: box-shadow 300ms ease, -webkit-transform 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease;
+    transition: transform 300ms ease, box-shadow 300ms ease, -webkit-transform 300ms ease;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.20);
+}
+
+.half-prod {
+    width: 50%;
+}
+
+.grid-prod {
+    height: 80%;
+}
+
 .product-card:hover {
+    box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
+    -webkit-transform: scale(1.05) translate(0px, -2px);
+    -ms-transform: scale(1.05) translate(0px, -2px);
+    transform: scale(1.05) translate(0px, -2px);
+    cursor: pointer;
+}
+
+.product-vertikal:hover {
     box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.15);
     -webkit-transform: scale(1.05) translate(0px, -2px);
     -ms-transform: scale(1.05) translate(0px, -2px);
@@ -5915,6 +5970,13 @@ p {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.product-card-image-vertikal {
+    display: flex;
+    width: 265px;
+    height: 200px;
+    align-self: baseline;
 }
 
 
