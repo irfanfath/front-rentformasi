@@ -85,7 +85,9 @@ class DaftarProduk extends Component{
                                                                     <div className="product-card-heading-vertikal">{data.ProdukTitle}</div>
                                                                     <div className="title-fasilitas-produk">2 Kamar Tidur, Wifi, Ac</div>
                                                                 </div>
-                                                                <div className="product-card-price">Rp. {data.ProdukHarga}</div>
+                                                                <div className="product-card-price">
+                                                                    Rp. {data.ProdukHarga}
+                                                                    <span className="product-card-duration">/ Day</span></div>
                                                             </div>
                                                         </div>
                                                     </div>
