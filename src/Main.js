@@ -6,6 +6,7 @@ import Header from "./Component/Navigation/Header";
 import Footer from "./Component/Navigation/Footer";
 import ListProduk from "./Container/Produk/ListProduk";
 import DaftarProduk from "./Container/Produk/DaftarProduk";
+import ListLoc from "./Container/Produk/ListLoc";
 
 class Main extends Component {
     render(){
@@ -14,6 +15,7 @@ class Main extends Component {
                 <Header/>
                 <DynamicScrollToTop/>
                     <Route exact path="/" component={Home} />
+                    <Route path="/listloc" component={ListLoc}/>
                     <Route path="/listproduk/:idBarang" component={ListProduk}/>
                     <Route path="/daftarprod" component={DaftarProduk}/>
                 <Footer/>

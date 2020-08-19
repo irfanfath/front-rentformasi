@@ -4,6 +4,36 @@
     height: 150px;
 }
 
+.img-maps {
+    width: 50%;
+}
+
+.desc-maps {
+    width: 40%;
+}
+
+.title-maps {
+    color: #000000;
+    cursor: pointer;
+}
+
+.title-maps:hover {
+    color: #a5c926;
+    box-shadow: 0 8px 20px -4px rgba(141, 124, 124, 0.15);
+    -webkit-transform: scale(1.05) translate(0px, -2px);
+    -ms-transform: scale(1.05) translate(0px, -2px);
+    transform: scale(1.05) translate(0px, -2px);
+    cursor: pointer;
+}
+
+.subtitle-maps {
+    color: gray;
+}
+
+.img-marker {
+    width: 10%;
+}
+
 .rate {
     display: inline-flex;
     width: 100%;
