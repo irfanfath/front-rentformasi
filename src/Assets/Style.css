@@ -5819,6 +5819,12 @@ p {
     background-color: #e5e5e5;
 }
 
+.shop-header-fasilitas {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
 .products {
     display: -webkit-box;
     display: -webkit-flex;

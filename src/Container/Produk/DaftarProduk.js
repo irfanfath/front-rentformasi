@@ -3,6 +3,7 @@ import axios from 'axios';
 import Cari from "../../Component/Forms/Cari";
 import Sorting from "../../Component/Dropdown/Sorting";
 import PaginationPage from "../../Component/Pagination/PaginationPage";
+import Fasilitas from "../../Component/Dropdown/Sorting/Fasilitas";
 
 class DaftarProduk extends Component{
     state = {
@@ -66,6 +67,9 @@ class DaftarProduk extends Component{
                                     <Sorting/>
                                         <div className="shop-header-line">
                                             <div className="shop-header-color"></div>
+                                        </div>
+                                        <div className="shop-header-fasilitas">
+                                            <Fasilitas/>
                                         </div>
                                     {
                                         post.Items.Product.map((data, key) => {

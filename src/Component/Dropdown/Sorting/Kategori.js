@@ -8,13 +8,13 @@ export default function Kategori () {
         Kategori
       </DropdownToggle>
       <DropdownMenu>
-        <DropdownItem>Kendaraan</DropdownItem>
+        <DropdownItem>Apartemen</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>Alat Berat</DropdownItem>
+        <DropdownItem>Hotel</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>Elektronik</DropdownItem>
+        <DropdownItem>Bungalow</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>Olahraga</DropdownItem>
+        <DropdownItem>Villa</DropdownItem>
       </DropdownMenu>
     </UncontrolledDropdown>
   );

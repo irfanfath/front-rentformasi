@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Kategori from "../Dropdown/Kategori";
+import Kategori from "../Dropdown/Sorting/Kategori";
 
 class Cari extends Component{
     render(){
