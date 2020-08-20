@@ -5822,7 +5822,8 @@ p {
 .shop-header-fasilitas {
     width: 100%;
     display: inline-flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 .products {

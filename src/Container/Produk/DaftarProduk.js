@@ -4,6 +4,7 @@ import Cari from "../../Component/Forms/Cari";
 import Sorting from "../../Component/Dropdown/Sorting";
 import PaginationPage from "../../Component/Pagination/PaginationPage";
 import Fasilitas from "../../Component/Dropdown/Sorting/Fasilitas";
+import Harga from "../../Component/Dropdown/Sorting/Harga";
 
 class DaftarProduk extends Component{
     state = {
@@ -70,6 +71,9 @@ class DaftarProduk extends Component{
                                         </div>
                                         <div className="shop-header-fasilitas">
                                             <Fasilitas/>
+                                        </div>
+                                        <div className="shop-header-fasilitas">
+                                            <Harga/>
                                         </div>
                                     {
                                         post.Items.Product.map((data, key) => {

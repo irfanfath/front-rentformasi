@@ -8,13 +8,13 @@ export default function Lokasi () {
         Lokasi
       </DropdownToggle>
       <DropdownMenu>
-        <DropdownItem>DKI Jakarta</DropdownItem>
+        <DropdownItem>Bojongsoang</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>Jawa Barat</DropdownItem>
+        <DropdownItem>Dago</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>Jawa Tengah</DropdownItem>
+        <DropdownItem>Lembang</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>Jawa Timur</DropdownItem>
+        <DropdownItem>Ujung Berung</DropdownItem>
       </DropdownMenu>
     </UncontrolledDropdown>
   );
