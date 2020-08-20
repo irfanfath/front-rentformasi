@@ -65,10 +65,17 @@ const Harga = () => {
 
     return (
       <div>
-          <Input />
         {/* <h1>PARENT VALUE: {parentVal}</h1> */}
         <RangeSlider {...sliderProps} classes="additional-css-classes" />
       </div>
+    // <>
+    // <div className="title-fasilitas">Min</div>
+    //     <Input />
+    //     -
+    //     <Input />
+    // <div className="title-fasilitas">Max</div>
+
+    // </>
     );
   };
 
