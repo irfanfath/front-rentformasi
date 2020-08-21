@@ -66,15 +66,16 @@ class DaftarProduk extends Component{
                                     <div className="count-produk">Menampilkan {countprod} dari {countprod} produk</div>
                                     </div>
                                     <Sorting/>
-                                        <div className="shop-header-line">
-                                            <div className="shop-header-color"></div>
-                                        </div>
-                                        <div className="shop-header-fasilitas">
+                                    <div className="shop-header-fasilitas">
                                             <Fasilitas/>
                                         </div>
                                         {/* <div className="shop-header-fasilitas">
                                             <Harga/>
                                         </div> */}
+                                        <div className="shop-header-line">
+                                            <div className="shop-header-color"></div>
+                                        </div>
+                                        
                                     {
                                         post.Items.Product.map((data, key) => {
                                             return (
