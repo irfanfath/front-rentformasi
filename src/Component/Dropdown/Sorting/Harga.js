@@ -21,7 +21,7 @@ class Harga extends React.Component {
       <div className="title-harga">Range Harga :</div>
         <div className="section-harga">
           <div className="form-harga">  
-            <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.min} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
+            <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.min} onChange={value => this.setState({ value: value })}/> 
             <InputRange
               draggableTrack
               maxValue={10}
@@ -29,7 +29,7 @@ class Harga extends React.Component {
               onChange={value => this.setState({ value: value })}
               // onChangeComplete={value => console.log(value)}
               value={this.state.value} />
-            <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.max} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
+            <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.max} onChange={value => this.setState({ value: value })}/> 
         </div>
       </div>
       </>
