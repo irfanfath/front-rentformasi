@@ -113,13 +113,13 @@
 .product-card-price {
     height: 34px;
     width: 100%;
-    padding: 2px 12px;
     border-radius: 4px;
-    background-color: #a5c926;
-    color: #fff;
+    background-color: #ffff;
+    border: 2px solid #a5c926;
+    color: #a5c926;
     font-size: 24px;
     line-height: 30px;
-    font-weight: 400;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -128,7 +128,7 @@
     width: 100%;
     padding: 2px 12px;
     border-radius: 4px;
-    color: #fff;
+    color: #a5c926;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
@@ -803,17 +803,18 @@
     .product-card-price {
         width: 100%;
         border-radius: 4px;
-        background-color: #a5c926;
-        color: #fff;
+        background-color: #ffff;
+        border: 1px solid #a5c926;
+        color: #a5c926;
         font-size: 12px;
-        font-weight: 400;
+        font-weight: bolder;
         margin-left: 5px;
     }
 
     .product-card-duration {
         padding: 2px 12px;
         border-radius: 4px;
-        color: #fff;
+        color: #a5c926;
         font-size: 12px;
         font-weight: 400;
     }
