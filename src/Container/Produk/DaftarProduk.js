@@ -5,12 +5,14 @@ import Sorting from "../../Component/Dropdown/Sorting";
 import PaginationPage from "../../Component/Pagination/PaginationPage";
 import Fasilitas from "../../Component/Dropdown/Sorting/Fasilitas";
 import Harga from "../../Component/Dropdown/Sorting/Harga";
+import LoadingSpinner from "../../Component/Loader/LoadingSpinner";
 
 class DaftarProduk extends Component{
     state = {
         post: [],
         star: 4.7,
-        trx : 217
+        trx : 217,
+        loading: true
     }
 
     // componentDidMount(){
@@ -31,6 +33,7 @@ class DaftarProduk extends Component{
         axios.get('http://irfanfath.site/Rentformasi_API/produk.json')
         .then((result)=>{
             this.setState({
+                loading: false,
                 post: result.data
             })
             console.log(result.data)
@@ -58,7 +61,7 @@ class DaftarProduk extends Component{
             <Cari/>
                 <div className="section no-padding-top">
                     <div className="wrapper">
-                            {this.state.post.map((post, key) => {
+                            {this.state.loading? <LoadingSpinner /> : this.state.post.map((post, key) => {
                             return (
                                 <div className="shop-header" key={key}>
                                     <div>

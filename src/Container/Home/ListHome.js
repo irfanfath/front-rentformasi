@@ -1,16 +1,27 @@
 import React, { Component } from "react";
 import axios from "axios";
+import LoadingSpinner from "../../Component/Loader/LoadingSpinner";
 
 class ListHome extends Component{
     state = {
         post: [],
-        stok: 16
+        stok: 16,
+        loading: true
     }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //       post: [], // will hold the results from our ajax call
+    //       loading: true, // will be true when ajax request is running
+    //       stok: 16
+    //     }
+    //   }
 
     getPostAPI = () => {
         axios.get('https://rentformasi-express.herokuapp.com/product/category')
         .then((result)=>{
             this.setState({
+                loading: false,
                 post: result.data
             })
             console.log(result.data)
@@ -35,7 +46,7 @@ class ListHome extends Component{
         return(
             <div className="section no-padding-top">
                     <div className="wrapper">
-                            {this.state.post.map((post, key) => {
+                            {this.state.loading? <LoadingSpinner /> : this.state.post.map((post, key) => {
                                 return (
                                     <div className="shop-header" key={key}>
                                         <h3 className="no-margin">{post.title}</h3>
@@ -56,7 +67,10 @@ class ListHome extends Component{
                                                                 </div>
                                                     )
                                                 })
-                                            }      
+                                            }   
+                                            {/* {
+                                                this.state.loading? <LoadingSpinner /> : null 
+                                            }    */}
                                     </div>
                                 )
                             })}
