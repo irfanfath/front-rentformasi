@@ -72,9 +72,9 @@ class DaftarProduk extends Component{
                                     <div className="shop-header-fasilitas">
                                             <Fasilitas/>
                                         </div>
-                                        {/* <div className="shop-header-fasilitas">
+                                        <div className="shop-header-harga">
                                             <Harga/>
-                                        </div> */}
+                                        </div>
                                         <div className="shop-header-line">
                                             <div className="shop-header-color"></div>
                                         </div>

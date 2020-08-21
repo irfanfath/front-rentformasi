@@ -1,0 +1,18 @@
+.form-harga {
+    margin: 0 auto;
+    display: contents;
+  }
+.section-harga {
+    display: inline-flex;
+    width: 100%;
+}  
+.input-range {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.input-range__label-container {
+    left: -50%;
+    position: relative;
+    display: none;
+}

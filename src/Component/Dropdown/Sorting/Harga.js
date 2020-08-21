@@ -1,82 +1,40 @@
-import React, {
-    memo,
-    useCallback,
-    useState,
-    useEffect,
-    useMemo
-  } from "react";
-import { Input } from "reactstrap";
-  
-  const RangeSlider = memo(
-    ({ classes, label, onChange, value, ...sliderProps }) => {
-      const [sliderVal, setSliderVal] = useState(0);
-      const [mouseState, setMouseState] = useState(null);
-  
-      useEffect(() => {
-        setSliderVal(value);
-      }, [value]);
-  
-      const changeCallback = e => {
-        setSliderVal(e.target.value);
-      };
-  
-      useEffect(() => {
-        if (mouseState === "up") {
-          onChange(sliderVal);
-        }
-      }, [mouseState]);
-      return (
-        <div className="range-slider">
-          <p>{label}</p>
-          <h3>value: {sliderVal}</h3>
-          <input
-            type="range"
-            value={sliderVal}
-            {...sliderProps}
-            className={`slider ${classes}`}
-            id="myRange"
-            onChange={changeCallback}
-            onMouseDown={() => setMouseState("down")}
-            onMouseUp={() => setMouseState("up")}
-          />
-        </div>
-      );
-    }
-  );
+import React from 'react';
+import InputRange from 'react-input-range';
+import "../../../Assets/slider.css"
+import "react-input-range/lib/css/index.css"
 
-const Harga = () => {
-    const [parentVal, setParentVal] = useState(10);
+class Harga extends React.Component {
+  constructor(props) {
+    super(props);
 
-    const sliderValueChanged = useCallback(val => {
-      console.log("NEW VALUE", val);
-      setParentVal(val);
-    });
+    this.state = {
+      value: {
+        min: 3,
+        max: 7,
+      },
+    };
+  }
 
-    const sliderProps = useMemo(
-      () => ({
-        min: 0,
-        max: 1000000,
-        value: parentVal,
-        step: 2,
-        onChange: e => sliderValueChanged(e)
-      }),
-      [parentVal]
-    );
-
+  render() {
     return (
-      <div>
-        {/* <h1>PARENT VALUE: {parentVal}</h1> */}
-        <RangeSlider {...sliderProps} classes="additional-css-classes" />
+      <>
+      <div className="title-harga">Range Harga :</div>
+    <div className="section-harga">
+      <div className="form-harga">  
+        <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.min} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
+        <InputRange
+          draggableTrack
+          maxValue={10}
+          minValue={0}
+          onChange={value => this.setState({ value: value })}
+          onChangeComplete={value => console.log(value)}
+          value={this.state.value} />
+        <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.max} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
       </div>
-    // <>
-    // <div className="title-fasilitas">Min</div>
-    //     <Input />
-    //     -
-    //     <Input />
-    // <div className="title-fasilitas">Max</div>
-
-    // </>
+      </div>
+      </>
     );
-  };
+  }
+}
 
-export default Harga
+export default Harga;

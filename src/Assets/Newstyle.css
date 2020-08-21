@@ -103,6 +103,12 @@
     font-weight: bolder;
 }
 
+.title-harga {
+    font-weight: bolder;
+    text-align: center;
+}
+
+
 .title-fasilitas-produk {
     color: #a2a2a2;
     text-align: left;
@@ -585,6 +591,18 @@
     transition: border-color 300ms ease, background-color 300ms ease;
 }
 
+.input-harga {
+    height: 48px;
+    text-align: left;
+    padding-right: 28px;
+    padding-left: 28px;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+    color: black;
+    background-color: #ffffff;
+    transition: border-color 300ms ease, background-color 300ms ease;
+}
+
 .section-produk {
     display: -webkit-box;
     display: -webkit-flex;
@@ -919,6 +937,13 @@
         display: inline-table;
         margin-top: 20px;
     }
+
+    .shop-header-harga {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
 
     .w-full {
         display: inline-block;

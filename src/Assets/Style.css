@@ -644,6 +644,19 @@ label {
     border: 1px solid #cccccc
 }
 
+.w-harga {
+    display: block;
+    width: 50%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc
+}
+
 .w-input-qty,
 .w-select {
     display: inline-flex;
@@ -5826,6 +5839,13 @@ p {
     margin-top: 10px;
 }
 
+.shop-header-harga {
+    width: 50%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
 .products {
     display: -webkit-box;
     display: -webkit-flex;
@@ -6195,6 +6215,17 @@ p {
 }
 
 .input.subscribe-input:focus {
+    border-color: #a5c926;
+    background-color: #fff;
+}
+
+
+.input-harga.subscribe-harga {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.input.harga-input:harga {
     border-color: #a5c926;
     background-color: #fff;
 }
