@@ -19,18 +19,18 @@ class Harga extends React.Component {
     return (
       <>
       <div className="title-harga">Range Harga :</div>
-    <div className="section-harga">
-      <div className="form-harga">  
-        <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.min} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
-        <InputRange
-          draggableTrack
-          maxValue={10}
-          minValue={0}
-          onChange={value => this.setState({ value: value })}
-          onChangeComplete={value => console.log(value)}
-          value={this.state.value} />
-        <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.max} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
-      </div>
+        <div className="section-harga">
+          <div className="form-harga">  
+            <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.min} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
+            <InputRange
+              draggableTrack
+              maxValue={10}
+              minValue={0}
+              onChange={value => this.setState({ value: value })}
+              // onChangeComplete={value => console.log(value)}
+              value={this.state.value} />
+            <input type="text" className="input-harga subscribe-harga w-harga" value={this.state.value.max} onChange={value => this.setState({ value: value })} id="nama_barang1" /> 
+        </div>
       </div>
       </>
     );

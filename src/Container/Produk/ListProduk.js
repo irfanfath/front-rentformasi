@@ -30,11 +30,11 @@ class ListProduk extends Component{
     render(){
         var prod = this.state.post;
         var countprod = prod.length;
-        var bintang = "★"
-        const divStyle = {
-            color: "gold",
-            fontSize: "22px"
-        }
+        // var bintang = "★"
+        // const divStyle = {
+        //     color: "gold",
+        //     fontSize: "22px"
+        // }
         
         return(
         <div className="section-produk">

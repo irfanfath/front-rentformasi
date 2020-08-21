@@ -592,7 +592,7 @@
 }
 
 .input-harga {
-    height: 48px;
+    height: 38px;
     text-align: left;
     padding-right: 28px;
     padding-left: 28px;
@@ -942,8 +942,8 @@
         width: 100%;
         justify-content: center;
         margin-top: 10px;
+        margin-left: 0;
     }
-    
 
     .w-full {
         display: inline-block;
