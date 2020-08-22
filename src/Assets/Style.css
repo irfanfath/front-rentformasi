@@ -5841,9 +5841,8 @@ p {
 
 .shop-header-harga {
     width: 50%;
-    justify-content: center;
+    display: inline-flex;
     margin-top: 10px;
-    margin-left: 25%;
 }
 
 .products {

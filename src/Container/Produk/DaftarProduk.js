@@ -4,8 +4,9 @@ import Cari from "../../Component/Forms/Cari";
 import Sorting from "../../Component/Dropdown/Sorting";
 import PaginationPage from "../../Component/Pagination/PaginationPage";
 import Fasilitas from "../../Component/Dropdown/Sorting/Fasilitas";
-import Range from "../../Component/Dropdown/Sorting/Range";
 import LoadingSpinner from "../../Component/Loader/LoadingSpinner";
+import Range from "../../Component/Dropdown/Sorting/Range";
+import Bintang from "../../Component/Dropdown/Sorting/Bintang";
 
 class DaftarProduk extends Component{
     state = {
@@ -65,20 +66,20 @@ class DaftarProduk extends Component{
                             return (
                                 <div className="shop-header" key={key}>
                                     <div>
-                                    <h3 className="no-margin">{post.SubKatTitle}</h3>
-                                    <div className="count-produk">Menampilkan {countprod} dari {countprod} produk</div>
+                                    <h2 className="no-margin">{post.SubKatTitle}</h2>
+                                    <div className="count-produk">Menampilkan 1 - {countprod} dari {countprod} produk</div>
                                     </div>
                                     <Sorting/>
                                     <div className="shop-header-fasilitas">
                                             <Fasilitas/>
                                         </div>
-                                        {/* <div className="shop-header-harga">
+                                        <div className="shop-header-harga">
+                                            <Bintang />
                                             <Range />
-                                        </div> */}
+                                        </div>
                                         <div className="shop-header-line">
                                             <div className="shop-header-color"></div>
-                                        </div>
-                                        
+                                        </div>          
                                     {
                                         post.Items.Product.map((data, key) => {
                                             return (

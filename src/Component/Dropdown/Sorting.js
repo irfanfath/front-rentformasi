@@ -10,7 +10,7 @@ class Sorting extends Component{
                     <div className="shop-categories w-dyn-items">
                         <div className="w-dyn-sorting">
                             <Urutan/>
-                            <Lokasi/>
+                            <Lokasi/>   
                         </div>
                     </div>
                 </div>

@@ -6137,6 +6137,15 @@ a.close.disabled {
     border-radius: 20px;
 }
 
+.modal-range {
+    width: 100%;
+    padding-top: 10px;
+    pointer-events: auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
 .modal-backdrop {
     position: fixed;
     top: 0;
@@ -6217,6 +6226,11 @@ a.close.disabled {
 @media (min-width:576px) {
     .modal-dialog {
         max-width: 400px;
+        margin: 1.75rem auto;
+        border-radius: 16px;
+    }
+    .modal-dialog-range {
+        max-width: 500px;
         margin: 1.75rem auto;
         border-radius: 16px;
     }

@@ -240,6 +240,21 @@
     border: 2px solid #a5c926
 }
 
+.w-range {
+    display: inline-block;
+    width: 40%;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin-left: 2%;
+    margin-top: 3%;
+    color: white;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #a5c926
+}
+
 .w-full-white {
     display: inline-block;
     width: 100%;
@@ -940,7 +955,7 @@
 
     .shop-header-harga {
         width: 100%;
-        justify-content: center;
+        display: inline-flex;
         margin-top: 10px;
         margin-left: 0;
     }
