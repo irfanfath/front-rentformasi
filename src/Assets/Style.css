@@ -5835,8 +5835,8 @@ p {
 .shop-header-fasilitas {
     width: 100%;
     display: inline-flex;
-    justify-content: center;
-    margin-top: 10px;
+    justify-content: left;
+    margin-top: 20px;
 }
 
 .shop-header-harga {

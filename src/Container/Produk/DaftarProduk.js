@@ -4,7 +4,7 @@ import Cari from "../../Component/Forms/Cari";
 import Sorting from "../../Component/Dropdown/Sorting";
 import PaginationPage from "../../Component/Pagination/PaginationPage";
 import Fasilitas from "../../Component/Dropdown/Sorting/Fasilitas";
-import Harga from "../../Component/Dropdown/Sorting/Harga";
+import Range from "../../Component/Dropdown/Sorting/Range";
 import LoadingSpinner from "../../Component/Loader/LoadingSpinner";
 
 class DaftarProduk extends Component{
@@ -72,9 +72,9 @@ class DaftarProduk extends Component{
                                     <div className="shop-header-fasilitas">
                                             <Fasilitas/>
                                         </div>
-                                        <div className="shop-header-harga">
-                                            <Harga/>
-                                        </div>
+                                        {/* <div className="shop-header-harga">
+                                            <Range />
+                                        </div> */}
                                         <div className="shop-header-line">
                                             <div className="shop-header-color"></div>
                                         </div>
