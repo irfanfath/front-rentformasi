@@ -28,10 +28,6 @@ const Fasilitas = () => {
         <input type="checkbox" className="custom-control-input" id="fas4" />
         <label className="custom-control-label" htmlFor="fas4">Restaurant</label>
       </div>
-      <div className="custom-control custom-checkbox custom-control-inline">
-        <input type="checkbox" className="custom-control-input" id="fas5" />
-        <label className="custom-control-label" htmlFor="fas5">Fitness Center</label>
-      </div>
     </>
   );
 };

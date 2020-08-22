@@ -3916,8 +3916,7 @@ input[type=submit].btn-block {
 .custom-control-label {
     position: relative;
     margin-bottom: 0;
-    vertical-align: top;
-    color: #828282;
+    vertical-align: top
 }
 
 .custom-control-label::before {
