@@ -550,7 +550,7 @@
 
 .w-dyn-sorting {
     display: flex;
-    margin-top: 4%;
+    /* margin-top: 4%; */
 }
 
 .margin-button-detail-menu {
@@ -939,6 +939,7 @@
     }
 
     .shop-header-harga {
+        display: none;
         width: 100%;
         justify-content: center;
         margin-top: 10px;

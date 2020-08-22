@@ -5833,17 +5833,18 @@ p {
 }
 
 .shop-header-fasilitas {
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    margin-top: 10px;
+    width: 60%;
+    display: block;
+    justify-content: left;
+}
+
+.shop-header-urutan {
+    display: block;
+    justify-content: left;
 }
 
 .shop-header-harga {
-    width: 50%;
-    justify-content: center;
-    margin-top: 10px;
-    margin-left: 25%;
+    width: 40%;
 }
 
 .products {

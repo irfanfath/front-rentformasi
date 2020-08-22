@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import axios from 'axios';
 import Cari from "../../Component/Forms/Cari";
-import Sorting from "../../Component/Dropdown/Sorting";
+// import Sorting from "../../Component/Dropdown/Sorting";
 import PaginationPage from "../../Component/Pagination/PaginationPage";
 import Fasilitas from "../../Component/Dropdown/Sorting/Fasilitas";
 import Harga from "../../Component/Dropdown/Sorting/Harga";
 import LoadingSpinner from "../../Component/Loader/LoadingSpinner";
+import Urutan from "../../Component/Dropdown/Sorting/Urutan";
+import Lokasi from "../../Component/Dropdown/Sorting/Lokasi";
 
 class DaftarProduk extends Component{
     state = {
@@ -66,19 +68,26 @@ class DaftarProduk extends Component{
                                 <div className="shop-header" key={key}>
                                     <div>
                                     <h3 className="no-margin">{post.SubKatTitle}</h3>
-                                    <div className="count-produk">Menampilkan {countprod} dari {countprod} produk</div>
+                                    <div className="count-produk">Menampilkan 1 - {countprod} dari {countprod} produk</div>
                                     </div>
-                                    <Sorting/>
+                                    <div className="count-produk">Menampilkan Semua Apartemen Di Bandung</div>
+                                    <div className="shop-header-line">
+                                        <div className="shop-header-color"></div>
+                                    </div>
                                     <div className="shop-header-fasilitas">
-                                            <Fasilitas/>
-                                        </div>
-                                        <div className="shop-header-harga">
-                                            <Harga/>
-                                        </div>
-                                        <div className="shop-header-line">
-                                            <div className="shop-header-color"></div>
-                                        </div>
-                                        
+                                        <Urutan/>
+                                    </div>
+                                    <div className="shop-header-harga">
+                                        <Harga/>
+                                    </div>
+                                    <div className="shop-header-urutan">
+                                        <Fasilitas/>
+                                    </div>
+                                    <div className="shop-header-urutan">
+                                        <Lokasi/>
+                                    </div>
+                                    <div className="shop-header-line">
+                                    </div>                       
                                     {
                                         post.Items.Product.map((data, key) => {
                                             return (
