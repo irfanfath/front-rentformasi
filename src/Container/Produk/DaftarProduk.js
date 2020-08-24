@@ -60,7 +60,7 @@ class DaftarProduk extends Component{
         return(
         <div className="section-produk">
             <Cari/>
-                <div className="section">
+                <div className="section no-padding-top">
                     <div className="wrapper">
                             {this.state.loading? <LoadingSpinner /> : this.state.post.map((post, key) => {
                             return (
