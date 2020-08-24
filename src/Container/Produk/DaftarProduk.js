@@ -95,7 +95,7 @@ class DaftarProduk extends Component{
                                                                         <div className="num-ratings-css">{this.state.star} <span className="num-trx-css">({this.state.trx})</span></div>                                                        
                                                                     </div>
                                                                     <div className="title-loc-produk">Buah Batu, Bandung</div>
-                                                                    <div className="product-card-heading-vertikal">{data.ProdukTitle}</div>
+                                                                    <div className="product-card-heading-vertikal">{data.ProdukTitle}df</div>
                                                                     <div className="title-fasilitas-produk">2 Kamar Tidur, Wifi, Ac</div>
                                                                 </div>
                                                                 <div className="product-card-price">
